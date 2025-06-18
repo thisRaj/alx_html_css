@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cool Tweets Page</title>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <link href="base.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>My Embedded Tweets</h1>
+            <p>Check out this interesting tweet I wanted to share!</p>
+
+            <h2>Featured Tweet</h2>
+            <!-- 
+                To embed a specific tweet:
+                1. Go to the tweet on Twitter.
+                2. Click the "..." (more) icon on the tweet.
+                3. Select "Embed Tweet" or "Embed Post".
+                4. Copy the provided HTML code and paste it below, replacing this placeholder.
+            -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Sunsets are proof that no matter what happens, every day can end beautifully. 🌅 <a href="https://t.co/exampleLink">pic.twitter.com/exampleImage</a></p>
+                &mdash; Nature Lover (@NatureLoverAcc) <a href="https://twitter.com/NatureLoverAcc/status/1795000000000000000">May 27, 2024</a>
+            </blockquote>
+            <!-- The script tag for Twitter widgets can also be placed here if you prefer,
+                 but it's common to have it once, either in head or end of body.
+                 If you already have it in the <head>, you don't strictly need it again here
+                 unless a specific tweet embed provides it as part of its own snippet.
+                 For simplicity and to ensure it loads, having it in the head or once before </body> is good.
+                 The Twitter embed code itself usually includes a call to load widgets.js if not already loaded.
+            -->
+            </article>
+
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Made by Jalil Muyeke - <a href="https://www.example.com" target="_blank">here</a></p>
+    </footer>
+</body>
+</html>
