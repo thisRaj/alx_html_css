@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #ff6600;
+    --text-color: #ffffff;
+    --bg-color: #1a1a1a;
+}
+.hero {
+    background: url('assets/hero-bg.jpg') no-repeat center;
+    background-size: cover;
+    color: var(--text-color);
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero-container {
+    max-width: 800px;
+    margin: auto;
+}
+.btn {
+    background: var(--primary-color);
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color);
+    border-radius: 5px;
+}
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 10px;
+    }
+    .hero-container {
+        max-width: 90%;
+    }
+}
