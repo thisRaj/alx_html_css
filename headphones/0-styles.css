@@ -1,37 +1,82 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 :root {
-    --primary-color: #ff6600;
-    --text-color: #ffffff;
-    --bg-color: #1a1a1a;
+  --font-family-source-sans-pro: 'Source Sans Pro', sans-serif;
+  --text-white: rgba(255, 255, 255, 1);
 }
-.hero {
-    background: url('assets/hero-bg.jpg') no-repeat center;
-    background-size: cover;
-    color: var(--text-color);
-    text-align: center;
-    padding: 100px 20px;
+
+.text-white {
+  color: var(--text-white);
 }
-.hero-container {
-    max-width: 800px;
-    margin: auto;
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.btn {
-    background: var(--primary-color);
-    padding: 10px 20px;
-    display: inline-block;
-    text-decoration: none;
-    color: var(--text-color);
-    border-radius: 5px;
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-2 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.text-3 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.text-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.menu-1 {
+@media (max-width: 1440px) {
+  .menu-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
 @media (max-width: 768px) {
-    .hero {
-        padding: 50px 10px;
-    }
-    .hero-container {
-        max-width: 90%;
-    }
+  .menu-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
 }
